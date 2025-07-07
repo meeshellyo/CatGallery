@@ -46,14 +46,64 @@ h4 {
 
 /* akuma's page */
 .akuma-theme {
-    background-color: rgb(184, 213, 240);
-    color: lightblue;
+  background-color: #d6e7e5;
+  color: #2f3e3a;
+  font-family: 'Quicksand', sans-serif;
 }
 
+/* title */
 .akuma-theme h1 {
-    text-align: center;
-    font-size: 2.2rem;
-    color: 
+  text-align: center;
+  font-size: 2.2rem;
+  color: #4b6762;
+  margin-bottom: 20px;
+  font-weight: 600;
 }
 
+/* back link */
+.back-link {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  text-decoration: none;
+  color: #4b6762;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: transform 0.3s ease;
+}
 
+.back-link:hover {
+  transform: scale(1.05);
+}
+
+.akuma-theme .kitty-profile-photo {
+  border: 4px solid #aacfc9;
+}
+
+.kitty-profile-photo {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 15px auto;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+.kitty-bio-box {
+  border-radius: 20px;
+  padding: 15px 25px;
+  width: 70%;
+  max-width: 500px;
+  margin: 0 auto 15px auto;
+  text-align: center;
+  font-size: 1rem;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+.kitty-details {
+  text-align: center;
+  font-size: 1.1rem;
+  margin-top: 10px;
+  color: #2f3e3a;
+}
